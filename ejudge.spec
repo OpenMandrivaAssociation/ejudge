@@ -26,7 +26,7 @@ Patch1: ejudge-stylecheck.patch
 Patch2: ejudge-tsc.c.patch
 Patch3: ejudge-fpc-version.patch
 
-BuildRequires: flex, sed, mktemp, libexpat-devel, zlib-devel, libzip-devel, libncursesw-devel, libmysql-devel
+BuildRequires: flex, sed, mktemp, libexpat-devel, zlib-devel, libzip-devel, libncursesw-devel, libmysql-devel, bison
 
 Requires: sharutils, httpd, e2fsprogs, php-iconv, gawk, sendmail
 #Requires for compilers
