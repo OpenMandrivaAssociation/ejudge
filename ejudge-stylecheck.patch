@@ -1,0 +1,11 @@
+--- ejudge/checkers/style_archive.c.orig	2010-08-03 21:37:08.000000000 +0400
++++ ejudge/checkers/style_archive.c	2010-08-03 21:37:42.000000000 +0400
+@@ -41,7 +41,7 @@ remove_directory_recursively(
+         const unsigned char *path,
+         int preserve_root);
+ 
+-enum { DEFAULT_MAX_ARCHIVE_SIZE = 1 * 1024 * 1024 };
++enum { DEFAULT_MAX_ARCHIVE_SIZE = 10 * 1024 * 1024 };
+ enum { DEFAULT_MAX_FILE_SIZE = 1 * 1024 * 1024 };
+ enum { DEFAULT_MAX_FILE_COUNT = 128 };
+ enum { DEFAULT_MAX_TEST_COUNT = 99 };
