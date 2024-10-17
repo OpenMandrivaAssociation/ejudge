@@ -13,7 +13,7 @@ Release: %mkrel 3
 Summary: Ejudge is a programming contest managment system
 License: GPL
 Group: System/Servers
-Url: http://www.ejudge.ru
+Url: https://www.ejudge.ru
 
 # SVN:  https://unicorn.cmc.msu.ru/svn/ejudge/trunk/ejudge/ 
 Source0: %name-svn6283.tar.bz2
