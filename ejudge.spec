@@ -8,7 +8,7 @@
 
 Name: ejudge
 Version: 2.3.18
-Release: %mkrel 3
+Release: 4
 
 Summary: Ejudge is a programming contest managment system
 License: GPL
